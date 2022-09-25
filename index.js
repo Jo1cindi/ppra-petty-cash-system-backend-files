@@ -14,5 +14,4 @@ app.use("/api/employee", employeeRouter)
 app.listen(process.env.APP_PORT, ()=>{
     console.log(`Server is perfectly running on ${process.env.APP_PORT}`)
 })
-
-module.exports  = app;
+module.exports = app
