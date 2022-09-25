@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "index.js",
-        "use": "nodemon"
+        "use": "@now/node"
       }
     ]
   }
