@@ -1,11 +1,10 @@
 {
     "version": 2,
-    "name": "nodejs-express",
+    "name": "music-album",
     "builds": [
-        { "src": "./src/index.js", "use": "@now/node" }
+       { "src": "index.js.js", "use": "@vercel/node" }
     ],
     "routes": [
-        {  "dest": "index.js" }
+       { "src": "/(.*)", "dest": "/index.js" }
     ]
-}
-  
+ } 
